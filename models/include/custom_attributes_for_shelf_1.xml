@@ -1,0 +1,12 @@
+<mujocoinclude>
+    <custom>
+        <!-- State Space boundaries for objects, highX, lowX, highY, lowY -->
+        <numeric name="objectBounds" size="4" data="1.77 1.19 0.23 -0.33"/>
+
+        <!-- State Space boundaries for robot's BASE (not end-effector), highX, lowX, highY, lowY -->
+        <numeric name="robotBounds" size="4" data="2.0 -2.0 2.0 -2.0"/>
+
+        <!-- lookat[0] lookat[1] lookat[2] distance azimuth elevation -->
+        <numeric name="camSettings" size="6" data="1.48821 0.00114961 0.220028 1.24173 90.6 -81.4"/>
+    </custom>
+</mujocoinclude>

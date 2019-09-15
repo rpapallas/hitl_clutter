@@ -1,0 +1,28 @@
+<mujocoinclude>
+    <mesh name="robotiq_85_base_link_coarse" file="robotiq_85_base_link_coarse.STL" />
+    <mesh name="inner_knuckle_coarse" file="inner_knuckle_coarse.STL" />
+    <mesh name="inner_finger_coarse" file="inner_finger_coarse.STL" />
+    <mesh name="outer_knuckle_coarse" file="outer_knuckle_coarse.STL" />
+    <mesh name="outer_finger_coarse" file="outer_finger_coarse.STL" />
+    <mesh name="body-collision" file="body-collision.stl" />
+    <mesh name="top" file="top.stl" />
+    <mesh name="ur5_base" file="ur5_base.stl" />
+    <mesh name="shoulder" file="shoulder.stl" />
+    <mesh name="upperarm" file="upperarm.stl" />
+    <mesh name="forearm" file="forearm.stl" />
+    <mesh name="wrist1" file="wrist1.stl" />
+    <mesh name="wrist2" file="wrist2.stl" />
+    <mesh name="wrist3" file="wrist3.stl" />
+
+    <!--Gripper-->
+    <mesh file="kinova_robotiq_coupler.stl" />
+    <mesh file="robotiq_85_base_link.stl" />
+    <mesh file="robotiq_85_finger_link.stl" />
+    <mesh file="robotiq_85_finger_tip_link.stl" />
+    <mesh file="robotiq_85_inner_knuckle_link.stl" />
+    <mesh file="robotiq_85_knuckle_link.stl" />
+    <material name="RobMat" specular="0.9" shininess="0.5" reflectance="0" rgba="0.7 0.7 0.7 1" emission="0.1" />
+    <material name="GriMat" specular="0.9" shininess="0.5" reflectance="0" rgba="0.1 0.1 0.1 1" emission="0.1" />
+    <material name="BasketMat" specular="0" shininess="0" reflectance="0" rgba="0.26 0.16 0.16796875 1" emission="0" />
+    <material name="Light" specular="0" shininess="0.6" reflectance="0.9" rgba="0.5 0.5 1 1" emission="0.7" />
+</mujocoinclude>

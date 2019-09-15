@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<mujoco model="scene_10">
+	<compiler angle="radian" />
+	<include file="include/settings.xml" />
+	<asset>
+		<include file="include/assets.xml" />
+		<include file="robot/include/robot_assets.xml" />
+	</asset>
+	<include file="include/defaults.xml" />
+	<include file="include/custom_attributes_for_shelf_1.xml" />
+	<custom>
+		<text name="problemName" data="parallel19" />
+	</custom>
+	<worldbody>
+		<include file="include/camera_and_lighting.xml" />
+		<body name="object_1" pos="1.444333 -0.142350 0.478187" quat="0.920702 0.000000 0.000000 0.390266">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_1" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_1_free" type="free" />
+		</body>
+		<body name="object_2" pos="1.645749 -0.024035 0.478187" quat="0.288283 -0.000000 -0.000000 -0.957545">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_2" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_2_free" type="free" />
+		</body>
+		<body name="object_3" pos="1.738844 -0.079499 0.478187" quat="-0.664619 -0.000000 -0.000000 -0.747183">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_3" rgba="0 1 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_3_free" type="free" />
+		</body>
+		<body name="object_4" pos="1.503882 0.114331 0.478187" quat="0.996864 -0.000000 -0.000000 -0.079130">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_4" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_4_free" type="free" />
+		</body>
+		<body name="object_5" pos="1.549817 -0.012087 0.478200" quat="0.998756 0.000000 0.000000 0.049859">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_5" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_5_free" type="free" />
+		</body>
+		<body name="object_6" pos="1.530694 -0.274637 0.478187" quat="0.995195 -0.000000 -0.000000 -0.097912">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_6" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_6_free" type="free" />
+		</body>
+		<body name="object_7" pos="1.730477 0.085636 0.478187" quat="0.918583 0.000000 0.000000 0.395228">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_7" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_7_free" type="free" />
+		</body>
+		<body name="object_8" pos="1.718682 -0.155390 0.478187" quat="0.140806 -0.000000 -0.000000 -0.990037">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_8" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_8_free" type="free" />
+		</body>
+		<body name="object_9" pos="1.570216 -0.163615 0.478187" quat="-0.973725 0.000000 0.000000 0.227727">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_9" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_9_free" type="free" />
+		</body>
+		<body name="object_10" pos="1.645951 -0.091441 0.478187" quat="-0.665545 -0.000000 -0.000000 -0.746358">
+			<geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_10" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder" />
+			<joint armature="0" damping="0" limited="false" name="object_10_free" type="free" />
+		</body>
+		<include file="robot/include/full_planar_robot.xml" />
+		<include file="include/shelf_1.xml" />
+		<include file="include/table.xml" />
+	</worldbody>
+</mujoco>

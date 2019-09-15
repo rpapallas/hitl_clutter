@@ -1,0 +1,94 @@
+<?xml version="1.0" ?><!--
+Copyright (C) 2018 The University of Leeds and Rafael Papallas
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Author: Rafael Papallas (www.rpapallas.com)
+--><mujoco model="scene_10">
+    <compiler angle="radian"/>
+    <include file="include/settings.xml"/>
+
+    <asset>
+        <include file="include/assets.xml"/>
+        <include file="robot/include/robot_assets.xml"/>
+    </asset>
+
+    <include file="include/defaults.xml"/>
+    <include file="include/custom_attributes_for_shelf_1.xml"/>
+
+    <custom>
+        <text name="problemName" data="p2"/>
+    </custom>
+
+	<worldbody>
+        <include file="include/camera_and_lighting.xml"/>
+
+        <!--  ================= MOVABLE OBJECTS ================= -->
+        <body name="object_1" pos="1.53223 0.0828768 0.479198" quat="-0.63889 -7.28065e-06 -9.384e-06 -0.769298">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_1" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_1_free" type="free"/>
+        </body>
+
+        <body name="object_2" pos="1.51316 -0.250031 0.479198" quat="0.492032 -0 -0 -0.870577">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_2" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_2_free" type="free"/>
+        </body>
+
+        <body name="object_3" pos="1.66578 0.0669543 0.479198" quat="-0.210211 0 0 0.977656">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_3" rgba="0 1 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_3_free" type="free"/>
+        </body>
+
+        <body name="object_4" pos="1.5343 0.0168204 0.479198" quat="-0.978257 -0 -0 -0.207395">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_4" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_4_free" type="free"/>
+        </body>
+
+        <body name="object_5" pos="1.60135 0.110311 0.479198" quat="-0.231379 -0 -0 -0.972864">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_5" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_5_free" type="free"/>
+        </body>
+
+        <body name="object_6" pos="1.46554 0.131452 0.479198" quat="0.542924 0 0 0.839782">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_6" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_6_free" type="free"/>
+        </body>
+
+        <body name="object_7" pos="1.48849 -0.108066 0.479198" quat="-0.9297 -0 -0 -0.368319">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_7" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_7_free" type="free"/>
+        </body>
+
+        <body name="object_8" pos="1.64651 -0.0738798 0.479198" quat="0.894841 -0 -0 -0.446385">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_8" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_8_free" type="free"/>
+        </body>
+
+        <body name="object_9" pos="1.59544 0.0170182 0.479198" quat="0.863995 -0 -0 -0.503501">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_9" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_9_free" type="free"/>
+        </body>
+
+        <body name="object_10" pos="1.64045 -0.182547 0.479198" quat="0.637838 -0 -0 -0.77017">
+            <geom contype="3" conaffinity="3" friction="0.4 0.4 0.8" mass="10" name="object_10" rgba="1 0 0. 1" size="0.03 0.05" type="cylinder"/>
+            <joint armature="0" damping="0" limited="false" name="object_10_free" type="free"/>
+        </body>
+
+        <include file="robot/include/full_planar_robot.xml"/>
+
+        <!--  ================= STATIC OBJECTS ================= -->
+        <include file="include/shelf_1.xml"/>
+        <include file="include/table.xml"/>
+	</worldbody>
+</mujoco>

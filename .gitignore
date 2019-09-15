@@ -1,3 +1,10 @@
+# MuJoCo
+mjkey.txt
+
+# Project specific
+.idea
+cmake-build-debug
+
 # Prerequisites
 *.d
 

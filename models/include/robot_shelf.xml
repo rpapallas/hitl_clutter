@@ -1,0 +1,26 @@
+<!--
+Copyright (C) 2018 The University of Leeds and Rafael Papallas
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Author: Rafael Papallas (www.rpapallas.com)
+-->
+<mujocoinclude>
+    <!-- table z-pos is -0.2918 (body named `base` z position) + 0.36 (tables half height) --> 
+    <body name="shelf" pos="1.341 0.294 0.5582" quat="0.70710678 0.0 0.0 -0.70710678">
+        <geom name="side_left" material="shelf_material" type="box" pos="-0.01 0.005 0." size="0.005 0.246 0.13" rgba="1. 1. 1. 1" contype="4" conaffinity="3"/>
+        <geom name="side_back" material="shelf_material" type="box" pos="0.292 0.246 0." size="0.297 0.005 0.13" rgba="1. 1. 1. 1" contype="4" conaffinity="3"/>
+        <geom name="side_right" material="shelf_material" type="box" pos="0.594 0.005 0." size="0.005 0.246 0.13" rgba="1. 1. 1. 1" contype="4" conaffinity="3"/>
+    </body>
+</mujocoinclude>
