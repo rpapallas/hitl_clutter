@@ -1,5 +1,6 @@
 # MuJoCo
 mjkey.txt
+MUJOCO_LOG.TXT
 
 # Project specific
 .idea
