@@ -1,3 +1,6 @@
+This work is to appear in the proceedings of *IEEE International Conference on Robotics and Automation (ICRA) 2020, Paris, France*.
+More details [here](https://pubs.rpapallas.com/icra2020/).
+
 # Non-Prehensile Manipulation in Clutter with Human-In-The-Loop
 
 # Installation
@@ -39,3 +42,23 @@ value for `<planner_name>` can be either `RRT` or `KPIECE` (case-sensitive).
 # License
 This work is licensed under GPLv3. The full license can be found 
 [here](https://github.com/rpapallas/hitl_clutter/blob/master/LICENSE).
+
+# Citation
+
+If you used this work or part of this work in your work, please consider citing
+the paper below.
+
+### Bibtex
+```
+@inproceedings{papallas2019non,
+  title={Non-Prehensile Manipulation in Clutter with Human-In-The-Loop},
+  author={Papallas, Rafael and Dogar, Mehmet R},
+  booktitle={{IEEE} International Conference on Robotics and Automation},
+  year={2020}
+}
+```
+
+### Plain
+```
+Papallas, R. and Dogar, M.R., 2020. Non-Prehensile Manipulation in Clutter with Human-In-The-Loop. IEEE International Conference on Robotics and Automation.
+```
