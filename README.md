@@ -1,7 +1,7 @@
-This work is to appear in the proceedings of *IEEE International Conference on Robotics and Automation (ICRA) 2020, Paris, France*.
-More details [here](https://pubs.rpapallas.com/icra2020/).
-
 # Non-Prehensile Manipulation in Clutter with Human-In-The-Loop
+
+This work is to appear in the proceedings of *IEEE International Conference on Robotics and Automation (ICRA) 2020*.
+More details about the paper [here](https://pubs.rpapallas.com/icra2020/).
 
 # Installation
 - Ubuntu 14.04
@@ -39,9 +39,15 @@ Where `<scene_name>` could be `s1`, `s2`, ..., `s10` or `parallel_1`, `parallel_
 `<number_of_objects>` should be the number of objects in the scene, which should be 10 for all the scenes provided. The
 value for `<planner_name>` can be either `RRT` or `KPIECE` (case-sensitive).
 
-# License
+# License & Acknowledgments
 This work is licensed under GPLv3. The full license can be found 
 [here](https://github.com/rpapallas/hitl_clutter/blob/master/LICENSE).
+
+Authors are with the School of Computing, University of Leeds, United Kingdom.
+
+This research has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grants agreement No. 746143, and from the UK Engineering and Physical Sciences Research Council under grant EP/N509681/1, EP/P019560/1 and EP/R031193/1.
+
+![University of Leeds Logo](uol_logo.png "University of Leeds") ![EPSRC Logo](epsrc_logo.png "EPSRC")
 
 # Citation
 
@@ -50,7 +56,7 @@ the paper below.
 
 ### Bibtex
 ```
-@inproceedings{papallas2019non,
+@inproceedings{papallas2020,
   title={Non-Prehensile Manipulation in Clutter with Human-In-The-Loop},
   author={Papallas, Rafael and Dogar, Mehmet R},
   booktitle={{IEEE} International Conference on Robotics and Automation},
