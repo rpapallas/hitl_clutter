@@ -47,8 +47,6 @@ Authors are with the School of Computing, University of Leeds, United Kingdom.
 
 This research has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grants agreement No. 746143, and from the UK Engineering and Physical Sciences Research Council under grant EP/N509681/1, EP/P019560/1 and EP/R031193/1.
 
-![University of Leeds Logo](uol_logo.png "University of Leeds") ![EPSRC Logo](epsrc_logo.png "EPSRC")
-
 # Citation
 
 If you used this work or part of this work in your work, please consider citing
