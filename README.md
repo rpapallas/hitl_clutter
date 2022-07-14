@@ -1,7 +1,7 @@
 # Non-Prehensile Manipulation in Clutter with Human-In-The-Loop
 
 This work is to appear in the proceedings of *IEEE International Conference on Robotics and Automation (ICRA) 2020*.
-More details about the paper [here](https://pubs.rpapallas.com/icra2020/).
+More details about the paper [here](https://rpapallas.com/publications/icra-2020-non-prehensile-manipulation-in-clutter-with-hitl/).
 
 # Installation
 - Ubuntu 14.04
